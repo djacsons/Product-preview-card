@@ -1,12 +1,20 @@
 body{
     background-color: hsl(30, 38%, 92%);
+  }
+  .text{
     font-size: 14px;
-    font-family: Fraunces;
+    color:hsl(210, 7%, 46%);
+    font-family:Fraunces;
   }
   h1{
     line-height: 30px;
     font-weight: 700;
     font-size: 35px;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   #mainArea{
     width: 600px;
@@ -14,30 +22,32 @@ body{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin: auto;
-    display:flex;
-    margin-top: 150px;
+    margin-top: 110px;
   }
-  #rightContent{
+  .rightContent{
     margin: 35px;
     margin-top: 20px;
   }
-  #mainText{
-    color:hsl(212, 14%, 37%);
-    line-height: 20px;
+  .subText{
+    line-height: 25px;
     font-size: 15px;
+    margin: 0;
   }
-  #perfume-text{
+  .perfume-text{
     font-family: montserrat;
-    color: hsl(228, 12%, 48%);
     font-size: 14px;
     letter-spacing: 4px;
   }
-  #price{
+  .price{
     color: hsl(158, 36%, 37%);
     font-size: 40px;
     margin: 0;
     padding: 0;
     font-weight:700;
+  }
+  .priceArea{
+    display: flexbox;
+    align-items: center;
   }
   button{
     background-color:hsl(160, 41%, 17%); 
