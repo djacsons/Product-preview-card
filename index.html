@@ -10,31 +10,33 @@
 
 </head>
 <body>
- <main id="mainArea" class="flex">
-    <img src="images/image-product-desktop.jpg" alt="product-image" style="width: 170%; height: 100%;border-top-left-radius: inherit; border-bottom-left-radius: inherit;">
+ <main class="container">
+
+  <picture class = "perfume-pic item">
+    <source srcset="images/image-product-desktop.jpg" media="(max-width:375px)">
+    <img src="images/image-product-desktop.jpg" alt="perfume-pic" width="100%" height="100%" style="border-radius: inherit;">
+  </picture>
     
-    <div class="rightContent">
-      <p class="perfume-text text">PERFUME</p>
+  <div class="rightContent item">
+    <p class="perfume-text text">PERFUME</p>
 
-      <h1>Gabrielle Essence Eau De Parfum</h1>
-        
-      <p class="subText text">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-        Perfumer-Creator for the House of CHANEL.
-      </p>
+    <h1>Gabrielle Essence Eau De Parfum</h1>
+      
+    <p class="subText text">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      Perfumer-Creator for the House of CHANEL.
+    </p>
 
-        <br>
-        
-          <section class="priceArea">
-            <span class="price" >$149.99</span>
-            <span style="text-decoration: line-through; margin-top:0; margin-bottom: 0; margin-left: 10px;" class="text">$169.99</span>
-          </section>
-          
-        
-        
-        <br>
-        <button id="cart"><img src="images/icon-cart.svg" alt="cart-image"> Add to Cart</button>
-        
-    </div>
+      <br>
+      
+        <section class="priceArea">
+          <span class="price" >$149.99</span>
+          <span style="text-decoration: line-through; margin-top:0; margin-bottom: 0; margin-left: 10px;" class="text">$169.99</span>
+        </section>
+      
+      <br>
+      <button style="align-self: center;"><img src="images/icon-cart.svg" alt="cart-image"> Add to Cart</button>
+      
+  </div>
       
  </main>
   
